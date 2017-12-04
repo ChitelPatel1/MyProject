@@ -29,6 +29,19 @@ public class IntegerSwap {
 		System.out.println("After Swap num1 " + num1);
 		System.out.println("After Swap num2 " + num2);
 		
+		//swaping * 
+		int a_m= 20;
+		int b_m = 25;
+		System.out.println("Before Swap A " + a_m);
+		System.out.println("Before Swap B " + b_m);
+		
+		a_m = a_m*b_m;//15
+		b_m = a_m/b_m;//15-10= 5
+		a_m =	a_m/b_m; // 15-5=10
+		
+		System.out.println("After Swap A " + a_m);
+		System.out.println("After Swap B " + b_m);
+		
 
 	}
 
